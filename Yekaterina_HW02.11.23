@@ -1,0 +1,15 @@
+import hashlib
+
+prefix = "teachers+"
+counter = 0
+
+while True:
+    data = f"{prefix}{counter}".encode('utf-8')
+    sha256_hash = hashlib.sha256(data).hexdigest()
+
+    if sha256_hash[:5] == "00000":
+        print(f"Входное значение: {prefix}{counter}")
+        print(f"SHA-256 хеш: {sha256_hash}")
+        break
+
+    counter += 1
