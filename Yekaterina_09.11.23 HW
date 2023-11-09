@@ -1,0 +1,30 @@
+import requests
+import json
+
+#данные
+rpc_url = "https://mainnet.infura.io/v3/4bd1c238d545488491eafec180a4c90e"
+rpc_method = "eth_getBalance"
+address = "0x39637CED01F303dC4D2Dc7A625443c81a1CdC4e9"      
+block_parameter = "latest"
+
+# Параметры для запроса JSON-RPC
+rpc_payload = {
+    "jsonrpc": "2.0",
+    "method": rpc_method,
+    "params": [address, block_parameter],
+    "id": 1
+}
+
+# Отправляем POST-запрос к серверу RPC
+response = requests.post(rpc_url, json=rpc_payload)
+
+# Парсим JSON-ответ
+if response.status_code == 200:
+    response_json = response.json()
+    if "result" in response_json:
+        balance = int(response_json["result"], 16)  # Преобразование HEX-строки в целое число
+        print(f"Баланс адреса {address}: {balance} wei")
+    else:
+        print("Ошибка при получении баланса:", response_json)
+else:
+    print("Ошибка при отправке RPC-запроса. Код статуса:", response.status_code)
