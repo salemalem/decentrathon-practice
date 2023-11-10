@@ -5,15 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6625bbf1-aeb9-4292-8a88-c9b7d489224d" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/abi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/public/images/dashboard-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/public/images/portal-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/public/images/templates-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/public/thirdweb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/styles/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temirlan/thirdweb-app/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temirlan/rpc-practice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Temirlan/rpc-practice/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -35,14 +65,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/erlannurgaliyev/Desktop/decentrathon-practice&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;arman-task&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/erlan/OneDrive/Рабочий стол/decentrathon-practice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/erlannurgaliyev/Desktop/decentrathon-practice/Temirlan/rpc-practice/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\erlan\\OneDrive\\Рабочий стол\\decentrathon-practice\\Temirlan\\armans-task\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -60,6 +90,11 @@
       <workItem from="1699426603076" duration="29000" />
       <workItem from="1699433462099" duration="627000" />
       <workItem from="1699512819745" duration="440000" />
+      <workItem from="1699559155832" duration="14974000" />
+      <workItem from="1699628207902" duration="360000" />
+      <workItem from="1699628702603" duration="4110000" />
+      <workItem from="1699633431466" duration="9840000" />
+      <workItem from="1699643499491" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <option name="closed" value="true" />
